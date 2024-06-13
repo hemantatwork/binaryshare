@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const http = axios.create({
-  baseURL: import.meta.env.REACT_APP_BACKEND_BASEURL,
+  baseURL: import.meta.env.VITE_APP_BACKEND_BASEURL,
   headers: {
     "Content-Type": "application/json",
   },

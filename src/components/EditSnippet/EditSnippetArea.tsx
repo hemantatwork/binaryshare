@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { SnippetContext } from "../context/SnippetContext";
+import { SnippetContext } from "../../context/SnippetContext";
 
-const SnippetArea = () => {
+const EditSnippetView = () => {
   const { setSnippet } = useContext(SnippetContext);
   return (
     <div>
@@ -15,4 +15,4 @@ const SnippetArea = () => {
   );
 };
 
-export default SnippetArea;
+export default EditSnippetView;
